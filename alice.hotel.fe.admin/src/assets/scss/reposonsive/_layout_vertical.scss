@@ -1,0 +1,139 @@
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1279px) {
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .page_wrapper {
+    position: relative;
+
+    &.vertical {
+      /* Collapse sidebar column — drawer overlays instead */
+      grid-template-areas:
+        "main"
+        "footer";
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+
+      > header,
+      > .header_wrapper {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 200;
+        width: var(--width-vertical);
+        max-width: 86vw;
+        height: 100dvh;
+        max-height: 100dvh;
+        padding-top: 0;
+        transition: left 0.25s ease;
+        box-shadow: 8px 0 24px rgba(15, 28, 36, 0.12);
+
+        .header_container {
+          width: 100%;
+          padding-top: 12px;
+        }
+
+        .header_footer {
+          display: block;
+          padding: 12px 16px 20px;
+          border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+          .header_func_logout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+          }
+        }
+      }
+
+      > header.on,
+      > .header_wrapper.on {
+        left: 0;
+      }
+
+      main {
+        padding-top: 64px;
+      }
+
+      .left-side-bar {
+        .side-bar-container .menu {
+          .logo {
+            width: auto;
+            flex: 0 1 auto;
+            margin-left: 0;
+            padding-left: 0;
+          }
+
+          .header_func_left {
+            display: block !important;
+          }
+
+          .header_func {
+            justify-content: flex-end;
+            gap: 12px;
+          }
+
+          .header_func_right {
+            gap: 8px;
+
+            .header_func_logout {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  body:has(.header_wrapper.on)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 28, 36, 0.35);
+    z-index: 150;
+  }
+
+  body:has(.header_wrapper.on) .main-container {
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page_wrapper.vertical {
+    .page_container {
+      padding: 8px 12px 20px;
+    }
+
+    .box {
+      padding: 14px 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 689px) {
+}
+
+@media screen and (max-width: 480px) {
+  .divide_box {
+    flex-wrap: wrap;
+
+    .box:first-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

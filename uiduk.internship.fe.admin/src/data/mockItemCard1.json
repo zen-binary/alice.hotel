@@ -1,0 +1,56 @@
+[
+  {
+    "id": 11,
+    "status": "7",
+    "statusContent": "접수중",
+    "title": "현장실습 제목이 나오는 영역입니다.",
+    "description": "삼성디자인·연구직·서울 1",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 12,
+    "status": "8",
+    "statusContent": "접수완료",
+    "title": "현장실습 제목이 나오는 영역입니다 현장실습 제목이 나오는 영역입니다 현장실습 제목이 나오는 영역입니다",
+    "description": "삼성디자인·연구직·서울 2",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 13,
+    "status": "7",
+    "statusContent": "접수중",
+    "title": "현장실습 제목이 나오는 영역입니다.",
+    "description": "삼성디자인·연구직·서울 3",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 14,
+    "status": "7",
+    "statusContent": "접수중",
+    "title": "현장실습 제목이 나오는 영역입니다.",
+    "description": "삼성디자인·연구직·서울 1",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 15,
+    "status": "8",
+    "statusContent": "접수완료",
+    "title": "현장실습 제목이 나오는 영역입니다 현장실습 제목이 나오는 영역입니다 현장실습 제목이 나오는 영역입니다",
+    "description": "삼성디자인·연구직·서울 2",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 16,
+    "status": "7",
+    "statusContent": "접수중",
+    "title": "현장실습 제목이 나오는 영역입니다.",
+    "description": "삼성디자인·연구직·서울 3",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  }
+]

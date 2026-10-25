@@ -1,0 +1,29 @@
+---
+description: Alice Hotel monorepo core standards — API envelope, auth, DoD, workflow
+alwaysApply: true
+---
+
+# Alice Hotel — Core
+
+Monorepo: `alice.hotel.backend` (Spring Boot), `alice.hotel.fe.admin`, `alice.hotel.fe.client` (Vue 3).
+
+Full standards: [STANDARDS.md](../../STANDARDS.md)
+
+## Fixed conventions
+
+- API JSON envelope: `{ code, message, data }` via backend `ApiResponse` / `ApiStatus`
+- FE reads business payload from `response.data.data`
+- Base path: `/api/v1`; session cookie auth; FE Axios `withCredentials: true`
+- New admin APIs under `/a/...` using REST (see HotelRoomController); do not extend POST-heavy legacy style
+- Do not invent new folder/layer patterns; follow existing feature slices
+- Do not commit secrets, `.env` with real passwords, `node_modules`, or `*.war`
+
+## Workflow
+
+Feature → check STANDARDS → branch (`feature/` | `fix/` | `chore/`) → implement → PR checklist → merge → release checklist
+
+## Definition of Done
+
+- Correct layers / stores / envelope
+- Lint/format (FE) or Gradle build (BE) OK when touched
+- Smoke main path; PR has goal + test plan

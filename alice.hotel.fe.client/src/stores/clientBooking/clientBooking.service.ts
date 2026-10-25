@@ -1,0 +1,9 @@
+export const C_HOTEL = "/c/booking/hotel";
+export const C_ROOM_TYPES = "/c/booking/room-types";
+export const C_SERVICES = "/c/booking/services";
+export const C_AVAILABILITY = "/c/booking/availability";
+export const C_BOOKING = "/c/booking";
+export const C_MINE = "/c/booking/mine";
+export const C_OTP = "/c/booking/otp";
+export const C_REGISTER = "/c/booking/register";
+export const C_REVIEWS = "/c/booking/reviews";

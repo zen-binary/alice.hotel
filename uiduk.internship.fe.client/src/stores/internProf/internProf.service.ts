@@ -1,0 +1,1 @@
+export const GET_LIST_DATA = "/p/intern-mng/list";

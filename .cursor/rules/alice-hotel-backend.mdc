@@ -1,0 +1,32 @@
+---
+description: Alice Hotel backend standards — packages, REST, exceptions, Java 17
+globs: alice.hotel.backend/**
+alwaysApply: false
+---
+
+# Alice Hotel — Backend
+
+Base package: `com.alice.hotel.api`. Java **17**. Context path `/api/v1`.
+
+## Feature layout
+
+- Controllers / services: `domain/{admin|system|common}/{feature}/web|service|impl`
+- DTOs: `dto/{admin|system|common}/{feature}/` (`*DTO`, `*SearchDTO`, `*RequestDTO`, `*ResponseDTO`)
+- Persistence: `entity/`, `repository/` (`*Entity`, `*Repository`)
+- Template: `domain/admin/hotelRoom/`
+
+## API rules
+
+- Controllers return `ApiResponse<T>` only — never raw JPA entities
+- Business errors: throw `CustomException` with `ApiStatus`; rely on `GlobalExceptionHandler`
+- New admin resources: `@RequestMapping("/a/{kebab-resource}")` with REST:
+  - `POST .../list`, `GET .../{id}`, `POST`, `PUT .../{id}`, `DELETE .../{id}`
+- Public: `/auth/**`, `/files/**`
+
+## Build / deploy
+
+- Local: Gradle / IDE `Application`
+- Release artifact: `bootWar` → `ALICE_HOTEL_ROOT.war`
+- Do not add new hardcoded secrets in `application.properties` committed to git
+
+See [STANDARDS.md](../../STANDARDS.md) §2 and §5.

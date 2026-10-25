@@ -1,0 +1,1 @@
+export const getDashboardNoticeList = "/c/dashboard/notice";

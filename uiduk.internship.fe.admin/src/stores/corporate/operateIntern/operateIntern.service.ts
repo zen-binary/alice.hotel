@@ -1,0 +1,1 @@
+export const GET_LIST_DATA = "/a/c/operate-intern/list";

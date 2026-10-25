@@ -1,0 +1,1 @@
+export const END_POINTS_POST = "c/participation/detail";

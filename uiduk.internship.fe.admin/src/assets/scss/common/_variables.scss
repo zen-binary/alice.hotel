@@ -1,0 +1,100 @@
+/**
+ * @file
+
+ * Description: 
+ * Date: 2024-10-28
+ @header-script
+*/
+
+:root {
+  --background-color: rgb(255, 255, 255);
+  --background-box: #fff;
+  --black-color: #000;
+  --white-color: #fff;
+  --scroll-color: #9e9b9b;
+  --primary: rgba(0, 152, 229, 1);
+  --error: rgba(255, 109, 133, 1);
+  --hover-color: #2828dd;
+
+  // header_vertical
+  --width-vertical: 250px;
+  --main-width-vertical: 1320px;
+
+  // header_horizontal`
+  --height--horizontal: 80px;
+
+  /*input*/
+  --input-height: 40px;
+  --gray: #b3b3b3;
+
+  --input--color: #b3b3b3;
+  --input--bd: rgba(216, 216, 216, 1);
+  --input--color--placeholder: rgba(190, 190, 190, 1);
+
+  /*checkox + radio*/
+  --bg--input: #fff;
+  --border--input: #000;
+  --checked--input: rgba(0, 152, 229, 1);
+  --default--input: rgba(216, 216, 216, 1);
+  --disabled--input: #ccc;
+  --disabled--input--checked: #fff;
+
+  /*button*/
+  --btn--bg--primary: #0098e5;
+  --btn--bd--primary: #0098e5;
+  --btn--cl--primary: #fff;
+  --btn--bg--secondary: white;
+  --btn--bd--secondary: #0098E5;
+  --btn--cl--secondary: #0098E5;
+  --btn--bg--bo_primary: #fff;
+  --btn--bd--bo_primary: #f15922;
+  --btn--cl--bo_primary: #f15922;
+  --btn--bg--lightgray: #d6dbe2;
+  --btn--bd--lightgray: #d6dbe2;
+  --btn--cl--lightgray: #898d9c;
+  --btn--bg--white: #fff;
+  --btn--bd--white: #ccced4;
+
+  //table
+  --secondary: #95ee70;
+  --white: #fff;
+  --black: #000;
+  --dark1: #222;
+  --dark2: #585d72;
+  --dark3: #898d9c;
+  --light1: #edeff2;
+  --light2: #d6dbe2;
+  --light3: #ccced4;
+  --shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  --gray-lavender: #ccced4;
+  // color
+  --white--ff: #fff;
+  //blue
+  --blue--009: #0098e5;
+  --blue--30: #303646;
+  // gray
+  --gray--e4: #e4e4e4;
+  --gray--1d: #1d1d1d;
+  --gray--d6: #d6dbe2;
+  --gray--71: #717171;
+  --gray--55: #555555;
+  --gray--2d: #2d2d2d;
+  --gray--be: #bebebe;
+  --pink--85: #ff6d85;
+  --gray--f0: #f0f0f0;
+  --gray--f8: #f8f8f8;
+  --gray--c6: #c6c6c6;
+  //primary
+  --primary--e5: #0098e5;
+}
+
+[data-theme="drank"] {
+  --background-color: #000;
+  --background-box: #8f8d8d;
+  --black-color: #fff;
+  --white-color: #000;
+  --scroll-color: #333;
+  --primary: #333;
+  --error: #ff5c5c;
+  --hover-color: #888;
+}

@@ -1,0 +1,23 @@
+export const MODE_DETAIL = "detail";
+export const SUCCSESS_STATUS = 200;
+export const SUCCSESS_STATUS_CREATE = 201;
+export const FILE_TYPE_IMAGE = "img";
+export const FILE_TYPE_ALL = "all";
+export const FILE_TYPE_OFFICE = "office";
+export const FILE_TYPE_VIDEO = "video";
+export const FILE_TYPE_CUSTOM = "custom";
+export const ACCEPTTYPE_OFICE = ".hwp, .hwpx, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .txt, .pdf, .zip";
+export const ACCEPTTYPE_IMG = ".jpg, .jpeg, .png";
+export const ACCEPTTYPE_VIDEO = ".avi, .flv, .mkv, .mov, .mpeg, .mp4, .ogg, .wma, .wmv";
+export const ACCEPTTYPE_ALL =
+  ".hwp, .hwpx, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .txt, .pdf, .zip, .jpg, .jpeg, .png, .avi, .flv, .mkv, .mov, .mpeg, .mp4, .ogg, .wma, .wmv";
+export const ACCEPTTYPE_CUSTOM = ".hwp, .hwpx, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .txt, .pdf, .zip, .jpg, .jpeg, .png, .gif";
+export const MODE_CREATE = "create";
+export const MODE_EDIT = "edit";
+export const PAGINATION_PAGE_SIZE = 10;
+export const FORMAT_YYY_MM_DD = "yyyy-MM-dd";
+export const MODE_SHOW = "show";
+export const MODE_HIDDEN = "hidden";
+export const SAVE_ID = "save_id"
+export const MODE_COPY = "copy";
+export const FORMAT_YYY_MM_DD_HASH = "yyyy/MM/dd";

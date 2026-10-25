@@ -1,0 +1,144 @@
+[
+  {
+    "id": 6,
+    "name": "Menu",
+    "parentId": null,
+    "screenName": "menu2",
+    "route": null,
+    "displayOrder": 2,
+    "treeLevel": 1,
+    "subMenus": [
+      {
+        "id": 7,
+        "name": "Template",
+        "parentId": 6,
+        "screenName": "icc",
+        "route": null,
+        "displayOrder": 1,
+        "treeLevel": 2,
+        "subMenus": [
+          {
+            "id": 8,
+            "name": "Mẫu Input",
+            "parentId": 7,
+            "screenName": "#section0",
+            "route": null,
+            "displayOrder": 1,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 9,
+            "name": "Box",
+            "parentId": 7,
+            "screenName": "#section1",
+            "route": null,
+            "displayOrder": 2,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 10,
+            "name": "Title",
+            "parentId": 7,
+            "screenName": "#section2",
+            "route": null,
+            "displayOrder": 3,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 11,
+            "name": "Content",
+            "parentId": 7,
+            "screenName": "#section3",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 12,
+            "name": "Button",
+            "parentId": 7,
+            "screenName": "#section4",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 13,
+            "name": "Checkbox + radio",
+            "parentId": 7,
+            "screenName": "#section5",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 14,
+            "name": "Status component",
+            "parentId": 7,
+            "screenName": "#section6",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 15,
+            "name": "Table",
+            "parentId": 7,
+            "screenName": "#section7",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 16,
+            "name": "TModal",
+            "parentId": 7,
+            "screenName": "#section11",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 17,
+            "name": "Grid",
+            "parentId": 7,
+            "screenName": "#section8",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 18,
+            "name": "File upload",
+            "parentId": 7,
+            "screenName": "#section9",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          },
+          {
+            "id": 19,
+            "name": "pagination",
+            "parentId": 7,
+            "screenName": "#section10",
+            "route": null,
+            "displayOrder": 4,
+            "treeLevel": 3,
+            "subMenus": null
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+export const getDashboardQnaList = "/c/dashboard/qna";

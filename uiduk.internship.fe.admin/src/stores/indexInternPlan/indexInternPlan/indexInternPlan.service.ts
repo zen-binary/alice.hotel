@@ -1,0 +1,1 @@
+export const LIST_INTERN_PLAN = 'a/intern-plan/list'

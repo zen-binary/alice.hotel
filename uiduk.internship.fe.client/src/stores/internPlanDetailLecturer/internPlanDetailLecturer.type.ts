@@ -1,0 +1,48 @@
+export type InternPlanResponseModel = {
+  listInternPlanDetail: InternPlanDetailListModel[];
+  internPlanSeq: string | null;
+  internPlanNm: string;
+  referInternPlanSeq: string;
+  referInternPlanNm: string;
+  executionCount: number;
+  cormSeq: string;
+  cormNameKr: string;
+  commSeq: string;
+  commNm: string;
+  registerStr: Date | null;
+  registerEnd: Date | null;
+  internshipStr: Date | null;
+  internshipEnd: Date | null;
+  internRecruitmentQuantity: number;
+  internshipField: string;
+  staffNo: string;
+  staffNm: string;
+  deptNm: string;
+  internYear: string;
+  internTerm: string;
+  duration: string;
+  durationHourStr: string;
+  durationHourEnd: string;
+  durationMinuteStr: string;
+  durationMinuteEnd: string;
+  internshipWeekday: string;
+  internshipDay: string;
+  paymentAmount: string;
+  paymentFrequency: string;
+  paymentTimingType: string;
+  paymentDate: string;
+  employmentContractYn: string;
+  insuranceParticipationYn: string;
+  internJobSummary: string;
+  requirements: string;
+  status: string;
+};
+
+export type InternPlanDetailListModel = {
+  internDetailSeq: string | null;
+  week: string;
+  startDate: string | null;
+  endDate: string | null;
+  content: string;
+  delYn: string;
+};

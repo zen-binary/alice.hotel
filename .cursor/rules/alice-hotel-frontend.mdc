@@ -1,0 +1,31 @@
+---
+description: Alice Hotel Vue frontend standards — Pinia stores, http, i18n, lint
+globs: alice.hotel.fe.admin/**,alice.hotel.fe.client/**
+alwaysApply: false
+---
+
+# Alice Hotel — Frontend
+
+Vue 3 + Vite + TS + Pinia + Vuetify. Apps: `alice.hotel.fe.admin`, `alice.hotel.fe.client`.
+
+## Feature module shape
+
+```
+src/stores/{feature}/
+  index.ts              # defineStore("{feature}Store", () => { ... })
+  {feature}.service.ts  # URL path constants
+  {feature}.type.ts
+```
+
+- HTTP: only via `src/utils/http.ts` (Axios, `VITE_API_ENDPOINT`, `withCredentials: true`)
+- Business data: `response.data.data`
+- Routes/names: `router/screen.ts`; auth: `middleware/auth.ts`
+- Components: PascalCase `.vue`; i18n under `locales/{vi,en,ko}/`
+
+## Style / PR
+
+- Match existing Prettier: double quotes, `printWidth: 150`, `trailingComma: "all"`
+- Before PR in the touched app: `npm run lint`, `npm run format`
+- Env: copy from `.env.example`; never commit real secrets
+
+See [STANDARDS.md](../../STANDARDS.md) §3 and §4.

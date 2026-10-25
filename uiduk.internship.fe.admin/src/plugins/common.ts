@@ -1,0 +1,2 @@
+// CommonMixins.js
+export default {};

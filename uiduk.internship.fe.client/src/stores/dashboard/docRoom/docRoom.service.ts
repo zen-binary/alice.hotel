@@ -1,0 +1,1 @@
+export const getDashboardDocRoomList = "/c/dashboard/doc-room";

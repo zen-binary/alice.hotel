@@ -1,0 +1,56 @@
+[
+  {
+    "id": 11,
+    "status": "7",
+    "statusContent": "Đang nhận",
+    "title": "Thực tập khu vực hiển thị tiêu đề.",
+    "description": "Alice Design · Seoul 1",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 12,
+    "status": "8",
+    "statusContent": "Đã nhận",
+    "title": "Thực tập khu vực hiển thị tiêu đề Thực tập khu vực hiển thị tiêu đề Thực tập khu vực hiển thị tiêu đề",
+    "description": "Alice Design · Seoul 2",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 13,
+    "status": "7",
+    "statusContent": "Đang nhận",
+    "title": "Thực tập khu vực hiển thị tiêu đề.",
+    "description": "Alice Design · Seoul 3",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 14,
+    "status": "7",
+    "statusContent": "Đang nhận",
+    "title": "Thực tập khu vực hiển thị tiêu đề.",
+    "description": "Alice Design · Seoul 1",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 15,
+    "status": "8",
+    "statusContent": "Đã nhận",
+    "title": "Thực tập khu vực hiển thị tiêu đề Thực tập khu vực hiển thị tiêu đề Thực tập khu vực hiển thị tiêu đề",
+    "description": "Alice Design · Seoul 2",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  },
+  {
+    "id": 16,
+    "status": "7",
+    "statusContent": "Đang nhận",
+    "title": "Thực tập khu vực hiển thị tiêu đề.",
+    "description": "Alice Design · Seoul 3",
+    "icon": "/src/assets/images/img_icon.png",
+    "image": "/src/assets/images/img_card.png"
+  }
+]

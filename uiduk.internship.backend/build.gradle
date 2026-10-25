@@ -1,0 +1,90 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.0'
+	id 'io.spring.dependency-management' version '1.1.5'
+	id 'war'
+}
+
+group = 'com.winwintek'
+version = '0.0.1-SNAPSHOT'
+
+bootWar {
+	archiveBaseName='ROOT'
+	archiveFileName='INTERNSHIP_ROOT.war'
+	archiveVersion='0.0.0'
+}
+
+war {
+	enabled = false
+}
+
+java {
+	sourceCompatibility = '21'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// session redis
+	implementation 'org.springframework.session:spring-session-data-redis'
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation group: 'eu.bitwalker', name: 'UserAgentUtils', version: '1.21'
+	implementation group: 'commons-codec', name: 'commons-codec', version: '1.17.0'
+
+//	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
+//	implementation 'org.springframework.session:spring-session-core'
+	implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.2.0'
+	implementation 'org.springframework.boot:spring-boot-starter-aop:3.2.3'
+
+	implementation 'com.github.f4b6a3:tsid-creator:5.2.6'
+	implementation 'org.apache.commons:commons-text:1.12.0'
+
+	//email
+	implementation 'org.springframework.boot:spring-boot-starter-mail:3.0.0'
+	implementation 'jakarta.mail:jakarta.mail-api:2.1.0'
+
+	//thymeleaf
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:3.2.4'
+
+//	implementation files('lib/ojdbc11.jar')
+
+	implementation 'io.hypersistence:hypersistence-tsid:2.1.2'
+
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+	runtimeOnly 'com.oracle.database.jdbc:ojdbc8:19.8.0.0'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.16.0'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.1'
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.1'
+
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '3.2.5'
+	// 위덕대 SSO관련
+	implementation files('lib/SIServerAPI.4.3.jar')
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

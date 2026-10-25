@@ -1,0 +1,12 @@
+export const ALICE_HOTEL = "/a/hotel";
+export const ALICE_ROOM_TYPES = "/a/room-types";
+export const ALICE_ROOMS = "/a/rooms";
+export const ALICE_SERVICES = "/a/hotel-services";
+export const ALICE_VOUCHERS = "/a/vouchers";
+export const ALICE_BOOKINGS = "/a/bookings";
+export const ALICE_FRONT_DESK = "/a/front-desk/board";
+export const ALICE_DASHBOARD = "/a/dashboard";
+export const ALICE_SHIFTS = "/a/shifts";
+export const ALICE_GUESTS = "/a/guests";
+export const ALICE_REVIEWS = "/a/reviews";
+export const ALICE_EXCEL = "/a/reports/excel";
